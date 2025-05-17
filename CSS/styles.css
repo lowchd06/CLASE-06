@@ -1,0 +1,31 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #c3ecf5, #e6e9f0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Encabezados */
+h1 {
+    font-size: 3rem;
+    color: #0077b6;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px #ccc;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #023e8a;
+    text-shadow: 1px 1px 2px #ddd;
+}
